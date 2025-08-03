@@ -1,0 +1,23 @@
+{
+  "name": "vercel-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server using vercel mcp-handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "mcp-handler": "^1.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
