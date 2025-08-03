@@ -4,10 +4,13 @@
   "description": "MCP server using vercel mcp-handler",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.1",
     "axios": "^1.11.0",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.20.3",
     "typescript": "^5.9.2"
   }
